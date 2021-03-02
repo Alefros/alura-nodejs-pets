@@ -1,5 +1,4 @@
 const uploadDeArquivos = require("../arquivos/uploadDeArquivos")
-
 const conexao = ('../infraestrutura/conexao')
 
 class Pet{
@@ -19,15 +18,9 @@ class Pet{
                     }else{
                         res.status(200).json(pet)
                     }
-        
                 })
-
             }
-
         })
-
-
- 
     }
 }
 
